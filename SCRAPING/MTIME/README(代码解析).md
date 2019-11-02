@@ -10,6 +10,7 @@
 
 ![image](https://github.com/suvieu/PYTHON-PROGRAM/blob/master/SCRAPING/MTIME/PIC/1.png)
 
+
 **所以我们要通过沈超元素中的NETWORK找到真正属于分类查询页面的URL。**
 
 **在分类查询页面内查询后(我这里按2015年 评分7-10分进行查询)。在NETWORK中刷新后得到响应文件，可以看到下面红圈中(图2)都是筛选结果的电影海报图片**
