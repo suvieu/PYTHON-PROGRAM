@@ -85,7 +85,7 @@ final_df = movie_df[['年份','电影名称','链接','评分']]
 ```python
 final_df.to_csv('movie.csv',encoding='utf_8_sig',index=False,mode='a')
 ```
-**这样基本就大功告成了！[(查看完整代码)](/MTIME/MTIME.py)**
+**这样基本就大功告成了！[(查看完整代码)](https://github.com/suvieu/PYTHON-PROGRAM/blob/master/SCRAPING/MTIME/MTIME.py)**
 
 <br>
 
