@@ -7,7 +7,6 @@
 **时光网的页面是通过AJAX异步加载的，在浏览器上关闭JAVASCRPIT 会发现网页变成如下的样子(图1)，如果直接用request对上面的URL进行请求，只能得到这个页面的HTML代码，但是这个页面是没有分类查询的任何功能和信息的。**
 
 图1
-
 ![Image](https://github.com/suvieu/PYTHON-PROGRAM/blob/master/SCRAPING/MTIME/PIC/1.png)
 
 
