@@ -8,16 +8,16 @@
 
 图1
 
-![image](https://github.com/suvieu/PYTHON-PROGRAM/blob/master/SCRAPING/MTIME/PIC/1.png)
+![Image](https://github.com/suvieu/PYTHON-PROGRAM/blob/master/SCRAPING/MTIME/PIC/1.png)
 
 
-**所以我们要通过沈超元素中的NETWORK找到真正属于分类查询页面的URL。**
+**所以我们要通过审查元素中的NETWORK找到真正属于分类查询页面的URL。**
 
 **在分类查询页面内查询后(我这里按2015年 评分7-10分进行查询)。在NETWORK中刷新后得到响应文件，可以看到下面红圈中(图2)都是筛选结果的电影海报图片**
 
 图2
 
-![image](https://github.com/suvieu/PYTHON-PROGRAM/blob/master/SCRAPING/MTIME/PIC/2.png)
+![image](https://github.com/suvieu/PYTHON-PROGRAM/blob/master/SCRAPING/MTIME/PIC/1.png)
 
 **在这些JPG上面有一个叫search.msc?...的文件，点进去粗略地看了下response，能看到电影名称，感觉应该就是这个文件了。再进一步查看这个文件请求的URL(图3)，很长一段，直接在浏览器中访问这个链接(图4) 又获得一大段HTML代码。可以看到这段代码里有我们需要的所有信息了(电影名称/链接/评分/年代)，所以这才是我们需要用request进行请求的URL**
 
