@@ -1,7 +1,7 @@
 ## Q1. 关于JSON
 ### **1.1 什么是JSON?**
 
-**JSON(JavaScript Object Notation)是一种轻量级的数据交换格式。**
+**A:JSON(JavaScript Object Notation)是一种轻量级的数据交换格式。**
 **它的优点是可以将 JavaScript 对象中表示的一组数据转换为字符串，然后就可以在网络或者程序之间轻松地传递这个字符串，并在需要的时候将它还原为各编程语言所支持的数据格式**
 **JSON中的数据需要用双引号，而不能用单引号。**
 
